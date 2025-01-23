@@ -1,0 +1,149 @@
+[
+  {
+    "memberId": "4",
+    "tripId": "001",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "1",
+    "tripId": "001",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "3",
+    "tripId": "001",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "5",
+    "tripId": "001",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "6",
+    "tripId": "002",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "1",
+    "tripId": "012",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "10",
+    "tripId": "002",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "12",
+    "tripId": "002",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "2",
+    "tripId": "003",
+    "isOrganizer": true,
+    "assignedTo": "3"
+  },
+  {
+    "memberId": "15",
+    "tripId": "003",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "16",
+    "tripId": "003",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "17",
+    "tripId": "003",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "8",
+    "tripId": "004",
+    "isOrganizer": true,
+    "assignedTo": "1"
+  },
+  {
+    "memberId": "1",
+    "tripId": "004",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "2",
+    "tripId": "004",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "4",
+    "tripId": "004",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "14",
+    "tripId": "005",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "5",
+    "tripId": "005",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "7",
+    "tripId": "005",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "19",
+    "tripId": "006",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "3",
+    "tripId": "006",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "6",
+    "tripId": "006",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "11",
+    "tripId": "007",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "12",
+    "tripId": "007",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "20",
+    "tripId": "008",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "2",
+    "tripId": "008",
+    "isOrganizer": false
+  },
+  {
+    "memberId": "2",
+    "tripId": "011",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "9",
+    "tripId": "010",
+    "isOrganizer": true
+  },
+  {
+    "memberId": "7",
+    "tripId": "009",
+    "isOrganizer": true
+  }
+]

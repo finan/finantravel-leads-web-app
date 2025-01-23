@@ -1,0 +1,122 @@
+[
+  {
+    "id": "001",
+    "name": "Tokyo Adventure",
+    "destination": "Tokyo",
+    "startDate": "2025-01-10",
+    "endDate": "2025-01-21",
+    "status": "Booked",
+    "priority": "High",
+    "assignedTo": "1"
+  },
+  {
+    "id": "002",
+    "name": "Kyoto Serenity",
+    "destination": "Kyoto",
+    "startDate": "2025-01-30",
+    "endDate": "2025-02-09",
+    "status": "Cancelled",
+    "priority": "Low",
+    "assignedTo": "1"
+  },
+  {
+    "id": "003",
+    "name": "Osaka Expo Nights",
+    "destination": "Osaka",
+    "startDate": "2025-03-16",
+    "endDate": "2025-03-22",
+    "status": "Completed",
+    "priority": "Low",
+    "assignedTo": "3"
+  },
+  {
+    "id": "004",
+    "name": "Hokkaido Snow",
+    "destination": "Hokkaido",
+    "startDate": "2025-02-28",
+    "endDate": "2025-03-05",
+    "status": "Booked",
+    "priority": "High",
+    "assignedTo": "3"
+  },
+  {
+    "id": "005",
+    "name": "Okinawa Beaches",
+    "destination": "Okinawa",
+    "startDate": "2025-02-17",
+    "endDate": "2025-02-26",
+    "status": "Booked",
+    "priority": "High",
+    "assignedTo": "2"
+  },
+  {
+    "id": "006",
+    "name": "Nara Traditions",
+    "destination": "Nara",
+    "startDate": "2025-03-11",
+    "endDate": "2025-03-15",
+    "status": "Cancelled",
+    "priority": "Low",
+    "assignedTo": "1"
+  },
+  {
+    "id": "007",
+    "name": "Mount Fuji Escape",
+    "destination": "Mount Fuji",
+    "startDate": "2025-03-01",
+    "endDate": "2025-03-08",
+    "status": "Completed",
+    "priority": "Low",
+    "assignedTo": "1"
+  },
+  {
+    "id": "008",
+    "name": "Nagoya Culture",
+    "destination": "Nagoya",
+    "startDate": "2025-02-07",
+    "endDate": "2025-02-10",
+    "status": "Completed",
+    "priority": "Low",
+    "assignedTo": "3"
+  },
+  {
+    "id": "009",
+    "name": "Sendai Highlights",
+    "destination": "Sendai",
+    "startDate": "2025-02-10",
+    "endDate": "2025-02-15",
+    "status": "Booked",
+    "priority": "Medium",
+    "assignedTo": "1"
+  },
+  {
+    "id": "010",
+    "name": "Hiroshima History",
+    "destination": "Hiroshima",
+    "startDate": "2025-02-02",
+    "endDate": "2025-02-07",
+    "status": "Cancelled",
+    "priority": "Low",
+    "assignedTo": "3"
+  },
+  {
+    "id": "011",
+    "name": "Kobe Food Tour",
+    "destination": "Kobe",
+    "startDate": "2025-02-02",
+    "endDate": "2025-02-08",
+    "status": "Interested",
+    "priority": "High",
+    "assignedTo": "2"
+  },
+  {
+    "id": "012",
+    "name": "Fukuoka Vibrance",
+    "destination": "Fukuoka",
+    "startDate": "2025-01-06",
+    "endDate": "2025-01-10",
+    "status": "Interested",
+    "priority": "High",
+    "assignedTo": "2"
+  }
+]

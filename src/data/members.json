@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "name": "Andi Hutama",
+    "email": "a.hutama@example.com",
+    "phone": "+628783084289",
+    "dateAdded": "2024-12-25",
+    "globalStatus": "Pending"
+  },
+  {
+    "id": "2",
+    "name": "Rahmat Hidayat",
+    "email": "rahmat.cinta@example.com",
+    "phone": "+628214091771",
+    "dateAdded": "2024-12-04",
+    "globalStatus": "Pending"
+  },
+  {
+    "id": "3",
+    "name": "Rian",
+    "email": "rian.bekasi@example.com",
+    "phone": "+628702750809",
+    "dateAdded": "2024-12-27",
+    "globalStatus": "Active"
+  },
+  {
+    "id": "4",
+    "name": "Dendy Hartanto",
+    "email": "dendy.h@example.com",
+    "phone": "+628541260167",
+    "dateAdded": "2024-12-22",
+    "globalStatus": "Inactive"
+  },
+  {
+    "id": "5",
+    "name": "M. Gia A.P.",
+    "email": "g.adhika@example.com",
+    "phone": "+628215943024",
+    "dateAdded": "2024-12-12",
+    "globalStatus": "Inactive"
+  },
+  {
+    "id": "6",
+    "name": "Sonang",
+    "email": "sonang@example.com",
+    "phone": "+628435868924",
+    "dateAdded": "2024-12-31",
+    "globalStatus": "Pending"
+  },
+  {
+    "id": "7",
+    "name": "Suci Mustika Rini",
+    "email": "suci.m.r@example.com",
+    "phone": "+628551385039",
+    "dateAdded": "2024-12-16",
+    "globalStatus": "Inactive"
+  },
+  {
+    "id": "8",
+    "name": "Nina Alisa",
+    "email": "nina.alisa@example.com",
+    "phone": "+628599103168",
+    "dateAdded": "2024-12-10",
+    "globalStatus": "Blacklisted"
+  },
+  {
+    "id": "9",
+    "name": "Sonny Surya Wijaya",
+    "email": "sonny.s.w@example.com",
+    "phone": "+628532740790",
+    "dateAdded": "2024-12-25",
+    "globalStatus": "Active"
+  },
+  {
+    "id": "10",
+    "name": "Bagus Wahyu Nugroho",
+    "email": "bagus.w.n@example.com",
+    "phone": "+628547836494",
+    "dateAdded": "2024-12-26",
+    "globalStatus": "Active"
+  },
+  {
+    "id": "11",
+    "name": "Rama Faishal",
+    "email": "rama.faishal@example.com",
+    "phone": "+628808052015",
+    "dateAdded": "2024-12-20",
+    "globalStatus": "Pending"
+  },
+  {
+    "id": "12",
+    "name": "Geraldy Joshua",
+    "email": "g.joshua@example.com",
+    "phone": "+628516640803",
+    "dateAdded": "2024-12-10",
+    "globalStatus": "Inactive"
+  },
+  {
+    "id": "13",
+    "name": "Cindy",
+    "email": "cindy.melulu@example.com",
+    "phone": "+628233518589",
+    "dateAdded": "2024-12-09",
+    "globalStatus": "Pending"
+  },
+  {
+    "id": "14",
+    "name": "Vida Sandya Fitrisia",
+    "email": "vida.s@example.com",
+    "phone": "+628428715989",
+    "dateAdded": "2024-12-07",
+    "globalStatus": "Inactive"
+  },
+  {
+    "id": "15",
+    "name": "Gunawan Ari Nursanto",
+    "email": "gunawan.a.n@example.com",
+    "phone": "+628879039973",
+    "dateAdded": "2025-01-01",
+    "globalStatus": "Active"
+  },
+  {
+    "id": "16",
+    "name": "Edief Prabowo",
+    "email": "e.prabowo@example.com",
+    "phone": "+628563352266",
+    "dateAdded": "2024-12-24",
+    "globalStatus": "Inactive"
+  },
+  {
+    "id": "17",
+    "name": "Achmad Rudi",
+    "email": "a.rudi@example.com",
+    "phone": "+628743055707",
+    "dateAdded": "2024-12-26",
+    "globalStatus": "Active"
+  },
+  {
+    "id": "18",
+    "name": "Fulan Dari",
+    "email": "fulan.d@example.com",
+    "phone": "+628559124896",
+    "dateAdded": "2024-12-16",
+    "globalStatus": "Inactive"
+  },
+  {
+    "id": "19",
+    "name": "Sisi Lensi",
+    "email": "sisi.l@example.com",
+    "phone": "+628508437527",
+    "dateAdded": "2024-12-25",
+    "globalStatus": "Inactive"
+  },
+  {
+    "id": "20",
+    "name": "Hayu Sayektiningati",
+    "email": "h.sayektiningati@example.com",
+    "phone": "+628174283827",
+    "dateAdded": "2024-12-15",
+    "globalStatus": "Active"
+  }
+]

@@ -2,21 +2,92 @@
   {
     "id": 1,
     "title": "Penyesuaian Komisi 2025",
-    "url": "/events/1"
+    "url": "/events/1",
+    "date": "2025-01-01",
+    "content": "Sebagai bagian dari rencana strategis perusahaan, kami akan menerapkan penyesuaian komisi baru mulai tahun 2025. Perubahan ini bertujuan untuk meningkatkan efisiensi operasional dan memberikan insentif yang lebih besar kepada karyawan yang menunjukkan kinerja luar biasa. Detail lebih lanjut mengenai struktur baru ini akan dibahas dalam rapat bulan ini."
   },
   {
     "id": 2,
     "title": "Festival Indonesia",
-    "url": "/events/2"
+    "url": "/events/2",
+    "date": "2025-02-15",
+    "content": "Festival Indonesia kembali hadir dengan berbagai acara menarik, termasuk bazar kuliner, pertunjukan seni tradisional, dan pameran budaya. Festival ini akan berlangsung di pusat kota mulai pukul 10 pagi hingga 9 malam. Jangan lewatkan kesempatan untuk menikmati keindahan seni dan budaya Indonesia di acara ini!"
   },
   {
     "id": 3,
     "title": "Tanggal Libur Nasional Jepang",
-    "url": "/events/3"
+    "url": "/events/3",
+    "date": "2025-03-01",
+    "content": "Jepang telah mengumumkan daftar tanggal libur nasional untuk tahun 2025. Pastikan untuk memeriksa jadwal ini agar Anda dapat merencanakan kegiatan dengan lebih baik. Beberapa tanggal penting termasuk Golden Week dan libur Tahun Baru. Informasi lebih lanjut dapat ditemukan di laman resmi pemerintah."
   },
   {
     "id": 4,
     "title": "Tiket Shibuya Sky",
-    "url": "/events/4"
+    "url": "/events/4",
+    "date": "2025-04-10",
+    "content": "Tiket untuk pengalaman luar biasa di Shibuya Sky kini sudah tersedia! Saksikan pemandangan 360 derajat kota Tokyo dari atas gedung pencakar langit ini. Pastikan untuk memesan tiket Anda lebih awal karena tempat ini sangat diminati, terutama selama akhir pekan dan musim liburan."
+  },
+  {
+    "id": 5,
+    "title": "Peraturan Baru untuk Visa Turis Jepang",
+    "url": "/events/5",
+    "date": "2025-02-01",
+    "content": "Pemerintah Jepang mengumumkan perubahan pada kebijakan visa turis mulai 2025. Pengajuan visa kini bisa dilakukan secara online dengan proses yang lebih cepat."
+  },
+  {
+    "id": 6,
+    "title": "Diskon Tiket JR Pass 2025",
+    "url": "/events/6",
+    "date": "2025-03-15",
+    "content": "JR Pass menawarkan diskon hingga 20% untuk semua rute. Penawaran ini berlaku mulai Maret 2025 hingga akhir tahun. Manfaatkan kesempatan ini untuk menjelajahi Jepang dengan lebih hemat."
+  },
+  {
+    "id": 7,
+    "title": "Paket Tour Sakura Musim Semi",
+    "url": "/events/7",
+    "date": "2025-03-20",
+    "content": "Nikmati keindahan bunga sakura dengan paket tur spesial musim semi. Paket ini mencakup kunjungan ke Tokyo, Kyoto, dan Osaka dengan pemandu profesional."
+  },
+  {
+    "id": 8,
+    "title": "Rekomendasi Restoran Halal di Tokyo",
+    "url": "/events/8",
+    "date": "2025-04-05",
+    "content": "Bagi wisatawan Muslim, kini tersedia panduan terbaru restoran halal di Tokyo. Panduan ini mencakup restoran Jepang, Timur Tengah, hingga Asia Selatan."
+  },
+  {
+    "id": 9,
+    "title": "Event Hanabi Musim Panas",
+    "url": "/events/9",
+    "date": "2025-06-10",
+    "content": "Musim panas 2025 akan dimeriahkan dengan berbagai festival kembang api di seluruh Jepang. Jangan lewatkan Hanabi Festival di Tokyo dan Osaka yang terkenal spektakuler."
+  },
+  {
+    "id": 10,
+    "title": "Penambahan Rute Penerbangan Internasional",
+    "url": "/events/10",
+    "date": "2025-05-01",
+    "content": "Maskapai penerbangan Jepang menambahkan rute baru ke Asia Tenggara dan Eropa mulai Mei 2025. Rute baru ini akan mempermudah perjalanan internasional wisatawan."
+  },
+  {
+    "id": 11,
+    "title": "Pameran Budaya Tradisional Jepang",
+    "url": "/events/11",
+    "date": "2025-07-20",
+    "content": "Pameran budaya tradisional Jepang akan diadakan di Kyoto, menampilkan seni ikebana, kimono, dan upacara minum teh. Acara ini akan berlangsung sepanjang Juli."
+  },
+  {
+    "id": 12,
+    "title": "Perubahan Jam Operasional Disneyland Tokyo",
+    "url": "/events/12",
+    "date": "2025-08-01",
+    "content": "Disneyland Tokyo mengumumkan perubahan jam operasional selama musim panas untuk menyesuaikan permintaan pengunjung. Taman hiburan akan buka lebih awal pada akhir pekan."
+  },
+  {
+    "id": 13,
+    "title": "Rekomendasi Destinasi Musim Gugur di Jepang",
+    "url": "/events/13",
+    "date": "2025-09-10",
+    "content": "Musim gugur adalah waktu terbaik untuk menikmati keindahan warna-warni di Jepang. Rekomendasi tahun ini mencakup Nikko, Hakone, dan Gunung Takao."
   }
 ]

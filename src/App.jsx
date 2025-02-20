@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Impor halaman untuk Leads dan Detail Leads
 import LeadsPage from '@/pages/LeadsPage';
-import LeadDetailsPage from '@/pages/LeadDetailsPage'; // Halaman baru untuk detail trip
+import LeadDetailsPage from '@/pages/LeadDetailsPage';
+import AnnouncementsPage from '@/pages/AnnouncementsPage';
 
 // Impor layout dan komponen sidebar serta navbar
 import { SidebarLayout } from '@/components/sidebar-layout';
@@ -22,6 +23,8 @@ function App() {
 
           {/* Rute untuk halaman detail Leads */}
           <Route path="/details/:id" element={<LeadDetailsPage />} />
+
+          <Route path="/announcements" element={<AnnouncementsPage />} />
         </Routes>
       </SidebarLayout>
     </Router>

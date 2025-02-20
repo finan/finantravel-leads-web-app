@@ -91,12 +91,12 @@ function FnnSidebar() {
           <div className="flex flex-row items-center justify-between">
             <SidebarHeading>Announcements</SidebarHeading>
             <span className="mb-1 hidden text-xs/6 text-zinc-500 hover:underline group-hover:block dark:text-zinc-400">
-              <a href="/">See more</a>
+              <a href="/announcements">See more</a>
             </span>
           </div>
-          {announcements.map((item) => (
+          {announcements.slice(0, 3).map((item) => (
             <SidebarItem key={item.id} href={item.url}>
-              {item.title}
+              <span className="font-normal">{item.title}</span>
             </SidebarItem>
           ))}
         </SidebarSection>

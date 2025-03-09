@@ -1,10 +1,5 @@
-// Impor PropTypes untuk validasi tipe properti
 import PropTypes from 'prop-types';
-
-// Impor pustaka React Router untuk navigasi
 import { Link } from 'react-router-dom';
-
-// Impor komponen Dropdown dari Catalyst
 import {
   Dropdown,
   DropdownButton,
@@ -12,7 +7,6 @@ import {
   DropdownMenu,
 } from '@/components/dropdown';
 
-// Impor komponen Table dari Catalyst
 import {
   Table,
   TableBody,
@@ -22,7 +16,6 @@ import {
   TableRow,
 } from '@/components/table';
 
-// Impor komponen Pagination dari Catalyst
 import {
   Pagination,
   PaginationGap,
@@ -32,20 +25,16 @@ import {
   PaginationPrevious,
 } from '@/components/pagination';
 
-// Impor komponen khusus untuk badge prioritas
 import FnnPriorityBadge from './FnnPriorityBadge';
-
-// Impor ikon ChevronDown dari Heroicons
 import { ChevronDownIcon } from '@heroicons/react/16/solid';
 
-// Komponen untuk menampilkan tabel data leads
 function FnnLeadsTable({ leads }) {
   return (
     <div>
-      {/* Tabel untuk menampilkan informasi leads */}
       <Table striped>
         <TableHead>
           <TableRow>
+            {/* Header tabel untuk setiap kolom */}
             <TableHeader>Trip Name</TableHeader>
             <TableHeader>Client</TableHeader>
             <TableHeader>Destination</TableHeader>
@@ -66,7 +55,7 @@ function FnnLeadsTable({ leads }) {
                   {lead.name}
                 </Link>
               </TableCell>
-              {/* Informasi organizer */}
+              {/* Nama client yang mengorganisir trip */}
               <TableCell className="max-w-32 truncate hover:whitespace-normal">
                 {lead.organizer}
               </TableCell>
@@ -74,12 +63,13 @@ function FnnLeadsTable({ leads }) {
               <TableCell>{lead.startDate}</TableCell>
               <TableCell>{lead.duration}</TableCell>
               <TableCell>{lead.status}</TableCell>
-              {/* Badge prioritas */}
+              {/* Menampilkan priority badge dengan warna sesuai level prioritas */}
               <TableCell>
                 <FnnPriorityBadge priority={lead.priority} />
               </TableCell>
+              {/* Menampilkan orang yang ditugaskan ke lead */}
               <TableCell>{lead.assignedTo}</TableCell>
-              {/* Dropdown untuk aksi */}
+              {/* Dropdown untuk opsi tindakan (Open, Remove, Transfer) */}
               <TableCell>
                 <Dropdown>
                   <DropdownButton outline className="cursor-pointer">
@@ -103,7 +93,7 @@ function FnnLeadsTable({ leads }) {
         </TableBody>
       </Table>
 
-      {/* Navigasi pagination */}
+      {/* Navigasi Pagination untuk berpindah halaman data */}
       <Pagination className="mt-6">
         <PaginationPrevious href="?page=2" />
         <PaginationList>
@@ -123,10 +113,8 @@ function FnnLeadsTable({ leads }) {
   );
 }
 
-// Validasi tipe properti untuk komponen ini
 FnnLeadsTable.propTypes = {
   leads: PropTypes.array.isRequired,
 };
 
-// Ekspor komponen untuk digunakan di tempat lain
 export default FnnLeadsTable;

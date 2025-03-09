@@ -1,4 +1,3 @@
-// Impor komponen Sidebar dari Catalyst untuk struktur sidebar
 import {
   Sidebar,
   SidebarBody,
@@ -11,10 +10,7 @@ import {
   SidebarSpacer,
 } from '@/components/sidebar';
 
-// Impor komponen Avatar dari Catalyst untuk menampilkan profil pengguna
 import { Avatar } from '@/components/avatar';
-
-// Impor komponen Dropdown dari Catalyst untuk menu dropdown
 import {
   Dropdown,
   DropdownButton,
@@ -24,7 +20,6 @@ import {
   DropdownMenu,
 } from '@/components/dropdown';
 
-// Impor ikon Heroicons untuk elemen visual pada sidebar
 import {
   ArrowRightStartOnRectangleIcon,
   ChevronUpIcon,
@@ -33,6 +28,7 @@ import {
   ShieldCheckIcon,
   UserIcon,
 } from '@heroicons/react/16/solid';
+
 import {
   HomeIcon,
   RectangleStackIcon,
@@ -43,16 +39,12 @@ import {
   InboxArrowDownIcon,
 } from '@heroicons/react/20/solid';
 
-// Impor data pengumuman dari file JSON
 import announcements from '@/data/announcements.json';
 
-// Komponen Sidebar khusus untuk aplikasi
 function FnnSidebar() {
   return (
     <Sidebar className="group">
-      {/* Header Sidebar */}
       <SidebarHeader>
-        {/* Bagian navigasi utama di header */}
         <SidebarSection className="max-lg:hidden">
           <SidebarItem href="/search">
             <MagnifyingGlassIcon />
@@ -65,9 +57,7 @@ function FnnSidebar() {
         </SidebarSection>
       </SidebarHeader>
 
-      {/* Body Sidebar */}
       <SidebarBody>
-        {/* Menu utama */}
         <SidebarSection>
           <SidebarItem href="/">
             <HomeIcon />
@@ -83,14 +73,12 @@ function FnnSidebar() {
           </SidebarItem>
         </SidebarSection>
 
-        {/* Spacer untuk pemisah visual */}
         <SidebarSpacer />
 
-        {/* Bagian pengumuman */}
         <SidebarSection>
           <div className="flex flex-row items-center justify-between">
             <SidebarHeading>Announcements</SidebarHeading>
-            <span className="mb-1 hidden text-xs/6 text-zinc-500 hover:underline group-hover:block dark:text-zinc-400">
+            <span className="mb-1 hidden text-xs/6 text-zinc-500 group-hover:block hover:underline dark:text-zinc-400">
               <a href="/announcements">See more</a>
             </span>
           </div>
@@ -101,10 +89,8 @@ function FnnSidebar() {
           ))}
         </SidebarSection>
 
-        {/* Spacer untuk pemisah visual */}
         <SidebarSpacer />
 
-        {/* Menu dukungan dan changelog */}
         <SidebarSection>
           <SidebarItem href="/support">
             <QuestionMarkCircleIcon />
@@ -117,9 +103,7 @@ function FnnSidebar() {
         </SidebarSection>
       </SidebarBody>
 
-      {/* Footer Sidebar */}
       <SidebarFooter className="max-lg:hidden">
-        {/* Menu dropdown profil pengguna */}
         <Dropdown>
           <DropdownButton as={SidebarItem}>
             <span className="flex min-w-0 items-center gap-3">
@@ -140,7 +124,6 @@ function FnnSidebar() {
             <ChevronUpIcon />
           </DropdownButton>
 
-          {/* Menu dropdown pilihan */}
           <DropdownMenu className="min-w-64" anchor="top start">
             <DropdownItem href="/my-profile">
               <UserIcon />
@@ -171,5 +154,4 @@ function FnnSidebar() {
   );
 }
 
-// Ekspor komponen untuk digunakan di tempat lain
 export default FnnSidebar;
